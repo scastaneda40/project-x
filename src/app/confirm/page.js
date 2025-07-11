@@ -1,6 +1,8 @@
 "use client";
 
 export const dynamic = "force-dynamic";
+export const runtime = "edge";
+export const preferredRegion = "auto";
 
 import { useRouter, useSearchParams } from "next/navigation";
 
